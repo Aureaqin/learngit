@@ -27,5 +27,9 @@ tip: HEAD pointer current vesion
     <1> remove the file from workstation: rm example.txt
     <2> remove the file from git : git rm example.txt
     <3> commit the chang to git : git commit -m "new commit"
-11. 
+11. remote repository:
+    <1> create ssh  rsa/ rsa.pub : ssh-keygen -t rsa -C "youemail@example.com"
+    <2> add ssh key to github
+    <3> create new repository to github
+    <4> connect local git  with github repository: 
 
