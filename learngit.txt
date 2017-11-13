@@ -1,0 +1,22 @@
+1. install git 
+sudo apt-get install git
+2. config git
+a. git config --global user.name "Your name"
+b. git config --goable user,email "You own@email.com"
+3. create git repository
+ <1> create dir: mkdir examplegit
+ <2> loop to the target dir: cd example
+ <3> change this dir to git managede repository: git init 
+4. add files to git managed:
+  <a>.create a file at this dir: 
+  <b>.add this file to git : git add example.txt
+  <c>.commit this file to repository: git commit -m "commonds"
+5. get the status of repository: git status
+6. get the difference from last commit: git diff
+7. get the log of repository: git log (--pretty=oneline)
+8.rollback to a pre version
+  <1>.get commit id : git log
+  <2> git reset --hard commit id/HEAD^/HEAD^^
+tip: HEAD pointer current vesion
+9. get pre git commander : git reflog
+
