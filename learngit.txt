@@ -18,5 +18,18 @@ b. git config --goable user,email "You own@email.com"
   <1>.get commit id : git log
   <2> git reset --hard commit id/HEAD^/HEAD^^
 tip: HEAD pointer current vesion
-9. get pre git commander : git reflog
-
+9. undo the files chang:
+   <1> the file hasnot been added to git stage:  git checkout -- example.txt
+   <2> the file has been added to the git stage :
+     a. git reset HEAD example.txt
+     b. git checkout -- example.txt
+10. remove the file from git repository:
+    <1> remove the file from workstation: rm example.txt
+    <2> remove the file from git : git rm example.txt
+    <3> commit the chang to git : git commit -m "new commit"
+11. remote repository:
+    <1> create ssh  rsa/ rsa.pub : ssh-keygen -t rsa -C "youemail@example.com"
+    <2> add ssh key to github
+    <3> create new repository to github
+    <4> connect local git  with github repository: git remote origin git@github.com:your git name/
+    <5> push the local repository to remote : git push -u origin master(at first time)| git push origin master
