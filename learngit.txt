@@ -31,5 +31,11 @@ tip: HEAD pointer current vesion
     <1> create ssh  rsa/ rsa.pub : ssh-keygen -t rsa -C "youemail@example.com"
     <2> add ssh key to github
     <3> create new repository to github
+<<<<<<< HEAD
     <4> connect local git  with github repository: git remote origin git@github.com:your git name/
     <5> push the local repository to remote : git push -u origin master(at first time)| git push origin master
+=======
+    <4> connect local git  with github repository: git remote origin git@github.com:your git name/your repository
+    <5> push the local repository to remote : git push -u origin master(at first time)| git push origin master
+
+>>>>>>> 00100dccbb297db7764061c3b7fa6ac349ca87f5
